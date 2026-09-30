@@ -8,7 +8,7 @@ function 解码64(文本) {
   for (let 索引 = 0; 索引 < 二进制.length; 索引++) 字节[索引] = 二进制.charCodeAt(索引);
   return 基础64文本解码器.decode(字节);
 }
-let 认证令牌 = '351c9981-04b6-4103-aa4b-864aa9c91469';
+let 认证令牌 = '5f8b979c-d44f-4195-bd74-1b576b561b8b';
 let 回退地址 = '';
 let 代理5配置 = '';
 let 自定义优选地址列表 = [];
@@ -41,7 +41,7 @@ let 启用优选地址 = true;
 let 启用仓库优选 = true;
 let 启用原生地址 = false; // 原生地址默认关闭          
 // 家宽链式：cfnew 自己的节点当前置，落地换成住宅宽带
-let 启用家宽链式 = false;
+let 启用家宽链式 = true;
 
 let 键值存储 = null;
 let 键值配置 = {};
